@@ -7,4 +7,4 @@ x1= win32.gencache.EnsureDispatch('Excel.Application')
 ss = x1.Workbooks.Add()
 sh = ss.ActiveSheet
 x1.Visible = True
-sh.Cells(5,10).Value = u
+sh.Cells(5,10).Valueu = u
